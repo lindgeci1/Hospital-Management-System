@@ -58,7 +58,7 @@ function CreateBill({ onClose }) {
         if (description === 'Pagesa per Kontroll') {
             cost = 10;
         } 
-
+        //test
         // Update total cost
         const updatedTotalCost = cost + roomCost + medicineCost;
         setTotalCost(updatedTotalCost);
