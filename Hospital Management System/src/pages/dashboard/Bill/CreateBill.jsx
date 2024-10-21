@@ -9,11 +9,11 @@ import { useLocation } from 'react-router-dom';
 function CreateBill({ onClose }) {
     const [formData, setFormData] = useState({
         Patient_ID: '',
-        Date_Issued: new Date().toISOString().split('T')[0],
+        Date_Issued: new Date().toLocaleDateString('en-CA'), // Using 'en-CA' ensures the date is formatted as YYYY-MM-DD
         Description: '',
-        Amount: '', // Set initial amount to ''
+        Amount: '', 
         Payment_Status: 'Pending',
-    });
+    })
     const [patients, setPatients] = useState([]);
     const [patientPersonalNumber, setPatientPersonalNumber] = useState('');
     const [roomCost, setRoomCost] = useState(0);
