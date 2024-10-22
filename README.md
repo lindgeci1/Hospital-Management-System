@@ -1,1 +1,1 @@
-Projekti prej Lab 1
+Projekti prej Lab, 100%
