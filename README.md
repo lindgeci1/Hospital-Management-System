@@ -1,1 +1,1 @@
-Projekti per Lab 1, done 100%
+Projekti prej Lab 1
