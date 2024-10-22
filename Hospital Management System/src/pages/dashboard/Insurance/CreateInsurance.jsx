@@ -19,7 +19,7 @@ function CreateInsurance({ onClose }) {
     const [alertMessage, setAlertMessage] = useState('');
     const [showErrorModal, setShowErrorModal] = useState(false);
     const navigate = useNavigate();
-    const location = useLocation(); // Get location to access state
+    const location = useLocation(); 
     const token = Cookies.get('token');
     //const [test, setTest] = useState([]);
     const handleChange = (e) => {
